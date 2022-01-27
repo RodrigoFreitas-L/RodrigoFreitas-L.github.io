@@ -4,32 +4,107 @@
     <meta charset="UTF-8">
     <title>Portfólio</title>
   </head>
+  <style>
+
+    .onde_moro {
+
+      width: 750px;
+      height: 170px;
+      color: #f3f0f3;
+      background-color: #0d0d0d;
+      font-size: 19px;
+      font-weight: 450;
+      text-align: center;
+      margin: auto;
+
+    }
+
+    .meu_nome {
+
+      width: 750px;
+      font-family:sans-serif;
+      background-color: #0d0d0d;
+      color: #FBFFFE;
+      text-align: center;
+      border-color: #0d0d0d;
+      margin: auto;
+
+    }
+
+    .upper_skills {
+
+      text-align: left;
+    
+    }
+
+    .my_photo {
+      
+      display: block;
+      margin: auto;
+      border-radius: 50%;
+
+}
+
+    body {
+
+      background-color: #040403;
+
+    }
+
+    .indice_interno {
+
+      background-color: #242026;
+      text-decoration: none;
+      color: #f3f0f3;
+      padding: 3px 3px;
+      min-width: 16px;
+      border-radius: 4px 4px;
+
+    }
+
+    .hard_skills_hobbies {
+
+      text-align: left;
+    }
+
+
+    #trybe_button {
+
+      background-color: #144937;
+      border-color: #144937;
+      text-decoration: none;
+      color: #f3f0f3;
+      padding: 3px 3px;
+      min-width: 16px;
+      border-radius: 4px 4px;
+
+    }
+
+  </style>
   <body>
+    
     <ul>
-      <a href="#sobre_mim"><li>Sobre mim!</li></a>
-      <a href="#skills"><li>Habilidades e Hobbies</li></a>
+      <li><a href="#sobre_mim" class="indice_interno">Who?</a></li>
+      <li><a href="#skills" class="indice_interno">Skills&Hobbies</a></li>
     </ul>
-    <img id="photo" src="foto.jpg" alt="Uma rápida foto que foi tirada na minha formatura do ensino médio, em que estou segurando um crânio na frente do rosto." width="250px">
-    <h1 id="sobre_mim">
-      <img src="" alt="">
-      Rodrigo Luiz Freitas
+
+    <img id="photo" class="my_photo" src="foto.jpg" alt="Uma rápida foto que foi tirada na minha formatura do ensino médio, em que estou segurando um crânio na frente do rosto." width="250px"><br><br><br><br>
+
+    <h1 id="sobre_mim" class="meu_nome">
+      Rodrigo Luiz Freitas <br><br>
     </h1>
     
-    <p>
+    <p class="onde_moro">
       <strong>Sempre</strong> tendo reviravoltas na vida. <br>
-      Moro na minha querida <em>Curitiba</em>, no estado do <em>Paraná</em>, desde que nasci, porém, querendo conhecer o mundo todo.
-    </p>
-
-    <br>
-    
-    <p>
-      <em>Atualmente</em> estudando desenvolvimento de software Web na <a href="https://www.betrybe.com/" target="_blank"> Trybe!</a>
+      Resido na minha querida <em>Curitiba</em> (<em>Chuvitiba</em>, para os íntimos), no estado do <em>Paraná</em>, desde que nasci.
+    <br><br><br>
+      <em>Atualmente</em> estudando desenvolvimento de software Web na <a id="trybe_button" href="https://www.betrybe.com/" target="_blank"> Trybe!</a>
     </p>
 
     <br><br><br>
 
     <ul>
-    <h4 id="skills">
+    <h4 id="skills" class="upper_skills">
       Habilidades que me orgulho
     </h4>
     <li>Comunicativo</li>
@@ -39,7 +114,7 @@
 
     <br><br><br>
 
-    <ul>
+    <ul class="hard_skills_hobbies">
       <h4> 
         Outras habilidades e hobbies
       </h4>
@@ -51,7 +126,7 @@
 
     <br><br><br>
 
-    <a href="https://www.youtube.com/watch?v=yjMp1BnI7lQ" target="_blank">Uma das pessoas mais conhecidas da comunidade de Osu! demonstrando quão difícil o jogo pode ser.</a>
+    <a href="https://www.youtube.com/watch?v=yjMp1BnI7lQ" target="_blank">O quão avançada a coisa fica nesse tal joguinho?</a>
 
   </body>
 </html>
