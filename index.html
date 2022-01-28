@@ -21,21 +21,15 @@
 
     .meu_nome {
 
-      width: 750px;
-      font-family:sans-serif;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       background-color: #0d0d0d;
+      border-color: #0d0d0d;
       color: #FBFFFE;
       text-align: center;
-      border-color: #0d0d0d;
       margin: auto;
 
     }
 
-    .upper_skills {
-
-      text-align: left;
-    
-    }
 
     .my_photo {
       
@@ -62,11 +56,6 @@
 
     }
 
-    .hard_skills_hobbies {
-
-      text-align: left;
-    }
-
 
     #trybe_button {
 
@@ -80,6 +69,45 @@
 
     }
 
+    .middle {
+
+      width: 750px;
+      height: 150px;
+      padding: 1%;
+      color: #f3f0f3;
+      background-color: #0d0d0d;
+      margin: auto;
+      list-style-position: inside;
+      margin: auto;
+      text-align: center;
+
+    }
+
+    .skill_list {
+
+      font-size: 17px;
+
+    }
+
+    .list_tittle {
+
+      font-size: 19px;
+
+    }
+
+    .externalosu {
+
+      display: block;
+      color: #f3f0f3;
+      background-color: #0d0d0d;
+      display: block;
+      margin: 0 auto;
+      text-align: center;
+
+    }
+
+    
+
   </style>
   <body>
     
@@ -90,21 +118,19 @@
 
     <img id="photo" class="my_photo" src="foto.jpg" alt="Uma rápida foto que foi tirada na minha formatura do ensino médio, em que estou segurando um crânio na frente do rosto." width="250px"><br><br><br><br>
 
-    <h1 id="sobre_mim" class="meu_nome">
-      Rodrigo Luiz Freitas <br><br>
+    <h1 id="sobre_mim" class="meu_nome middle">
+      <br> Rodrigo Luiz Freitas
     </h1>
     
-    <p class="onde_moro">
+    <p class="onde_moro middle">
       <strong>Sempre</strong> tendo reviravoltas na vida. <br>
       Resido na minha querida <em>Curitiba</em> (<em>Chuvitiba</em>, para os íntimos), no estado do <em>Paraná</em>, desde que nasci.
     <br><br><br>
       <em>Atualmente</em> estudando desenvolvimento de software Web na <a id="trybe_button" href="https://www.betrybe.com/" target="_blank"> Trybe!</a>
     </p>
 
-    <br><br><br>
-
-    <ul>
-    <h4 id="skills" class="upper_skills">
+    <ul class="middle skill_list">
+    <h4 class="list_tittle">
       Habilidades que me orgulho
     </h4>
     <li>Comunicativo</li>
@@ -112,10 +138,8 @@
     <li>Sempre pronto para ajudar</li>
     </ul>
 
-    <br><br><br>
-
-    <ul class="hard_skills_hobbies">
-      <h4> 
+    <ul class="middle skill_list">
+      <h4 class="list_tittle"> 
         Outras habilidades e hobbies
       </h4>
       <li>Git e GitHub</li>
@@ -126,7 +150,7 @@
 
     <br><br><br>
 
-    <a href="https://www.youtube.com/watch?v=yjMp1BnI7lQ" target="_blank">O quão avançada a coisa fica nesse tal joguinho?</a>
+    <a href="https://www.youtube.com/watch?v=yjMp1BnI7lQ" target="_blank" class="externalosu">O quão avançada a coisa fica nesse tal joguinho?</a>
 
   </body>
 </html>
