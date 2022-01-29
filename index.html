@@ -1,156 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <title>Portfólio</title>
-  </head>
-  <style>
-
-    .onde_moro {
-
-      width: 750px;
-      height: 170px;
-      color: #f3f0f3;
-      background-color: #0d0d0d;
-      font-size: 19px;
-      font-weight: 450;
-      text-align: center;
-      margin: auto;
-
-    }
-
-    .meu_nome {
-
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      background-color: #0d0d0d;
-      border-color: #0d0d0d;
-      color: #FBFFFE;
-      text-align: center;
-      margin: auto;
-
-    }
-
-
-    .my_photo {
+    <head>
+      <meta charset="UTF-8">
+      <title>Portfólio</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
       
-      display: block;
-      margin: auto;
-      border-radius: 50%;
+    <ul class="indice_interno">
+        <li><a href="#sobre_mim">Who?</a></li>
+        <li><a href="#skills">Skills&Hobbies</a></li>
 
-}
-
-    body {
-
-      background-color: #040403;
-
-    }
-
-    .indice_interno {
-
-      background-color: #242026;
-      text-decoration: none;
-      color: #f3f0f3;
-      padding: 3px 3px;
-      min-width: 16px;
-      border-radius: 4px 4px;
-
-    }
-
-
-    #trybe_button {
-
-      background-color: #144937;
-      border-color: #144937;
-      text-decoration: none;
-      color: #f3f0f3;
-      padding: 3px 3px;
-      min-width: 16px;
-      border-radius: 4px 4px;
-
-    }
-
-    .middle {
-
-      width: 750px;
-      height: 150px;
-      padding: 1%;
-      color: #f3f0f3;
-      background-color: #0d0d0d;
-      margin: auto;
-      list-style-position: inside;
-      margin: auto;
-      text-align: center;
-
-    }
-
-    .skill_list {
-
-      font-size: 17px;
-
-    }
-
-    .list_tittle {
-
-      font-size: 19px;
-
-    }
-
-    .externalosu {
-
-      display: block;
-      color: #f3f0f3;
-      background-color: #0d0d0d;
-      display: block;
-      margin: 0 auto;
-      text-align: center;
-
-    }
-
-    
-
-  </style>
-  <body>
-    
-    <ul>
-      <li><a href="#sobre_mim" class="indice_interno">Who?</a></li>
-      <li><a href="#skills" class="indice_interno">Skills&Hobbies</a></li>
     </ul>
 
-    <img id="photo" class="my_photo" src="foto.jpg" alt="Uma rápida foto que foi tirada na minha formatura do ensino médio, em que estou segurando um crânio na frente do rosto." width="250px"><br><br><br><br>
+      <img id="minhafoto" src="foto.jpg" alt="Uma rápida foto que foi tirada na minha formatura do ensino médio, em que estou segurando um crânio na frente do rosto." width="250px">
 
-    <h1 id="sobre_mim" class="meu_nome middle">
-      <br> Rodrigo Luiz Freitas
-    </h1>
-    
-    <p class="onde_moro middle">
-      <strong>Sempre</strong> tendo reviravoltas na vida. <br>
-      Resido na minha querida <em>Curitiba</em> (<em>Chuvitiba</em>, para os íntimos), no estado do <em>Paraná</em>, desde que nasci.
-    <br><br><br>
-      <em>Atualmente</em> estudando desenvolvimento de software Web na <a id="trybe_button" href="https://www.betrybe.com/" target="_blank"> Trybe!</a>
-    </p>
 
-    <ul class="middle skill_list">
-    <h4 class="list_tittle">
-      Habilidades que me orgulho
-    </h4>
-    <li>Comunicativo</li>
-    <li>Empatia</li>
-    <li>Sempre pronto para ajudar</li>
-    </ul>
 
-    <ul class="middle skill_list">
-      <h4 class="list_tittle"> 
-        Outras habilidades e hobbies
-      </h4>
-      <li>Git e GitHub</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Também um mero jogador de <a href="https://osu.ppy.sh/home" target="_blank">Osu!</a></li>
-    </ul>
+      <div class="everything">
+        
+        <div id="header">
+          <h1">
+          <br> Rodrigo Luiz Freitas
 
-    <br><br><br>
+          </h1>
 
-    <a href="https://www.youtube.com/watch?v=yjMp1BnI7lQ" target="_blank" class="externalosu">O quão avançada a coisa fica nesse tal joguinho?</a>
+        </div>
 
-  </body>
+          <div id="myself">
+            <p>
+              <strong>Sempre</strong> tendo reviravoltas na vida. <br>
+              Resido na minha querida <em>Curitiba</em> (<em>Chuvitiba</em>, para os íntimos), no estado do <em>Paraná</em>, desde que nasci.
+              <br><br><br>
+              <em>Atualmente</em> estudando desenvolvimento de software Web na
+              <span id="trybe_button"><a id="trybe_button" href="https://www.betrybe.com/" target="_blank"> Trybe!</a></span>
+            </p>
+          </div>
+      </div>
+
+      <div id="allskills">
+        <div id="skills">
+          <ul>
+            <h4>
+              Habilidades que me orgulho
+            </h4>
+
+
+            <li>Comunicativo</li>
+            <li>Empatia</li>
+            <li>Sempre pronto para ajudar</li>
+
+          </ul>
+        </div>  
+
+          <div id="hskills">
+            <ul>
+              <h4> 
+                Outras habilidades e hobbies
+              </h4>
+              <li>Git e GitHub</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Também um mero jogador de <a href="https://osu.ppy.sh/home" target="_blank">Osu!</a></li>
+  
+            </ul>
+
+          </div>
+      </div>
+
+      <a href="https://www.youtube.com/watch?v=yjMp1BnI7lQ" target="_blank">O quão avançada a coisa fica nesse tal joguinho?</a>
+
+    </body>
 </html>
